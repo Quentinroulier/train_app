@@ -1,0 +1,97 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.train_app.AllLinesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.train_app.AndroidTabLayoutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.train_app.AnswerLastSongActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.train_app.AudioRecordKnown { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.train_app.AudioRecordUnknown { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.train_app.CapacitiesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.train_app.ChooseCartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.train_app.ChooseSideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.train_app.ChooseStationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.train_app.DownloadFileDemo1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.train_app.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.train_app.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.train_app.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.train_app.ModeGameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.train_app.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.train_app.RegisterUserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.train_app.ReportNotificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.train_app.Singsomething { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.train_app.StatisticsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.train_app.UserProfileActivity { <init>(...); }
+
+# onClick res/layout/choosemodegame.xml #generated:28
+-keepclassmembers class * { *** answer_last(...); }
+
+# onClick res/layout/game.xml #generated:25
+-keepclassmembers class * { *** audioRecord(...); }
+
+# onClick res/layout/activity_main.xml #generated:7
+-keepclassmembers class * { *** choice_choose_line(...); }
+
+# onClick res/layout/activity_download.xml #generated:13
+# onClick res/layout/game.xml #generated:19
+-keepclassmembers class * { *** downloadFile(...); }
+
+# onClick res/layout/activity_main.xml #generated:16
+-keepclassmembers class * { *** game(...); }
+
+# onClick res/layout/choosemodegame.xml #generated:7
+-keepclassmembers class * { *** knownmusic(...); }
+
+# onClick res/layout/activity_main.xml #generated:36
+-keepclassmembers class * { *** report_bug(...); }
+
+# onClick res/layout/activity_main.xml #generated:46
+-keepclassmembers class * { *** report_notification(...); }
+
+# onClick res/layout/activity_main.xml #generated:26
+-keepclassmembers class * { *** send_notification(...); }
+
+# onClick res/layout/choosemodegame.xml #generated:18
+-keepclassmembers class * { *** unknownmusic(...); }
+
+# onClick res/layout/game.xml #generated:31
+-keepclassmembers class * { *** userProfile(...); }
+

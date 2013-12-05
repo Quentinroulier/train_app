@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:id="@+id/info"
+	android:layout_height="wrap_content" 
+	android:orientation="vertical">
+<LinearLayout
+	android:layout_width="wrap_content"
+	android:id="@+id/info"
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal">
+    <EditText
+        android:id="@+id/answer_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="What is the title of the song?"
+        android:imeOptions="actionSend"
+        android:imeActionLabel="launch" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+</LinearLayout>
+</LinearLayout>

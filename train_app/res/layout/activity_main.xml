@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/choose_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="choice_choose_line"
+        android:text="Capacities" />
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/report_notification"
+        android:layout_marginTop="38dp"
+        android:onClick="game"
+        android:text="Game" />
+
+    <Button
+        android:id="@+id/send_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/choose_line"
+        android:layout_marginTop="14dp"
+        android:onClick="send_notification"
+        android:text="Send notification" />
+
+    <Button
+        android:id="@+id/report_bug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/send_notification"
+        android:layout_marginTop="21dp"
+        android:onClick="report_bug"
+        android:text="Report bug" />
+
+    <Button
+        android:id="@+id/report_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/report_bug"
+        android:layout_alignBottom="@+id/report_bug"
+        android:layout_toRightOf="@+id/send_notification"
+        android:onClick="report_notification"
+        android:text="Report notification" />
+
+</RelativeLayout>
