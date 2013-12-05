@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;train_app/res/layout/lines.xml&apos; to &apos;sides.xml&apos;" description="Rename resource &apos;lines.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/lines.xml" name="sides.xml" stamp="1385046358149" updateReferences="true"/>
+</session>
